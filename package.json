@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Payment system API example",
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "main": "index.js",
   "scripts": {

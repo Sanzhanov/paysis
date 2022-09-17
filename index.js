@@ -220,7 +220,7 @@ app.patch('/config', function (req, res) {
         res.status(400).send({ 'message': 'Invalid number of entries.' });
         return;
       } else {
-        if (numberOfEntries < 5 || numberOfEntries > 25) {
+        if (numberOfEntries < 3 || numberOfEntries > 25) {
           res.status(400).send({ 'message': 'Number of entries must be between 5 and 25 (inclusively).' });
           return;
         }
